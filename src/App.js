@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div>
       <div className="header-text">
-        <h2>This is my Udemy React App!</h2>
+        <h2>This is my Udemy React Project!</h2>
         <p>Created by Julia Wald, instructed by Maximilian Schwarzmüller</p>
       </div>
       <Expenses items={expenses} />
