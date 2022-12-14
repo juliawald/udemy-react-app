@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import React from "react";
+import logo from "./logo.svg";
 import "./App.css";
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -35,7 +35,7 @@ function App() {
     <div>
       <div className="header-text">
         <h2>This is my Udemy React App!</h2>
-        <p>Instructed by Maximilian Schwarzmüller, created by Julia Wald</p>
+        <p>Created by Julia Wald, instructed by Maximilian Schwarzmüller</p>
       </div>
       <Expenses items={expenses} />
     </div>
