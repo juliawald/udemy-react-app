@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
@@ -37,6 +38,7 @@ const App = () => {
         <h2>This is my Udemy React Project!</h2>
         <p>Created by Julia Wald, instructed by Maximilian Schwarzmüller</p>
       </div>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
