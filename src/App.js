@@ -32,13 +32,17 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+
+  }
+
   return (
     <div>
       <div className="header-text">
         <h2>This is my Udemy React Project!</h2>
         <p>Created by Julia Wald, instructed by Maximilian Schwarzmüller</p>
       </div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );
