@@ -44,4 +44,5 @@
 input[type=text], input[type=date], input[type=number] {
   border: 1px solid #a209e8;
   background-color: rgba(250, 190, 240, 0.44);
+  
 }
